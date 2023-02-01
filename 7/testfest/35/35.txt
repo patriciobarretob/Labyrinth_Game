@@ -1,0 +1,22 @@
+(testing /course/cs4500f22/ta/github/clever-armadillos/7/xbad)
+(testing /course/cs4500f22/ta/github/7/35/Tests/0-in.json /course/cs4500f22/ta/github/7/35/Tests/0-out.json)
+Exception in thread "main" java.lang.IllegalStateException: Not a JSON Array: null
+	at com.google.gson.JsonElement.getAsJsonArray(JsonElement.java:107)
+	at json.JsonUtils.deserializePSAndBadPS(JsonUtils.java:41)
+	at XMain.xBad(XMain.java:163)
+	at XMain.main(XMain.java:58)
+(testing /course/cs4500f22/ta/github/7/35/Tests/1-in.json /course/cs4500f22/ta/github/7/35/Tests/1-out.json)
+Exception in thread "main" java.lang.IllegalStateException: Not a JSON Array: null
+	at com.google.gson.JsonElement.getAsJsonArray(JsonElement.java:107)
+	at json.JsonUtils.deserializePSAndBadPS(JsonUtils.java:41)
+	at XMain.xBad(XMain.java:163)
+	at XMain.main(XMain.java:58)
+(testing /course/cs4500f22/ta/github/7/35/Tests/2-in.json /course/cs4500f22/ta/github/7/35/Tests/2-out.json)
+Exception in thread "main" java.lang.IllegalStateException: Not a JSON Array: null
+	at com.google.gson.JsonElement.getAsJsonArray(JsonElement.java:107)
+	at json.JsonUtils.deserializePSAndBadPS(JsonUtils.java:41)
+	at XMain.xBad(XMain.java:163)
+	at XMain.main(XMain.java:58)
+((/course/cs4500f22/ta/github/7/35/Tests/0-in.json /course/cs4500f22/ta/github/7/35/Tests/0-out.json) (/course/cs4500f22/ta/github/7/35/Tests/1-in.json /course/cs4500f22/ta/github/7/35/Tests/1-out.json) (/course/cs4500f22/ta/github/7/35/Tests/2-in.json /course/cs4500f22/ta/github/7/35/Tests/2-out.json))
+((passed 3) (total 3) (partial-score 3))
+

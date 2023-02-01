@@ -1,0 +1,8 @@
+(testing /course/cs4500f22/ta/github/alecnorrie-joey/4/xstate)
+(testing /course/cs4500f22/ta/github/4/8/Tests/4-in.json /course/cs4500f22/ta/github/4/8/Tests/4-out.json)
+Exception in thread "main" java.lang.NullPointerException
+	at XMain.xState(XMain.java:55)
+	at XMain.main(XMain.java:29)
+((/course/cs4500f22/ta/github/4/8/Tests/4-in.json /course/cs4500f22/ta/github/4/8/Tests/4-out.json))
+((passed 1) (total 1) (partial-score 1))
+

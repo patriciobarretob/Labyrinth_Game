@@ -1,0 +1,36 @@
+#! /bin/sh
+mvn -q clean
+make
+mvn -q test
+cd ../../3
+cat Tests/0-in.json | ./xboard | python3 ../Maze/Common/test.py 3 0
+cat Tests/1-in.json | ./xboard | python3 ../Maze/Common/test.py 3 1
+cat Tests/2-in.json | ./xboard | python3 ../Maze/Common/test.py 3 2
+cd ../4
+cat Tests/0-in.json | ./xstate | python3 ../Maze/Common/test.py 4 0
+cat Tests/1-in.json | ./xstate | python3 ../Maze/Common/test.py 4 1
+cat Tests/2-in.json | ./xstate | python3 ../Maze/Common/test.py 4 2
+cat Tests/3-in.json | ./xstate | python3 ../Maze/Common/test.py 4 3
+cat Tests/4-in.json | ./xstate | python3 ../Maze/Common/test.py 4 4
+cd ../5
+cat Tests/0-in.json | ./xchoice | python3 ../Maze/Common/test.py 5 0
+cat Tests/1-in.json | ./xchoice | python3 ../Maze/Common/test.py 5 1
+cat Tests/2-in.json | ./xchoice | python3 ../Maze/Common/test.py 5 2
+cat Tests/3-in.json | ./xchoice | python3 ../Maze/Common/test.py 5 3
+cat Tests/4-in.json | ./xchoice | python3 ../Maze/Common/test.py 5 4
+cd ../6
+cat Tests/0-in.json | ./xgames | python3 ../Maze/Common/test.py 6 0
+cat Tests/1-in.json | ./xgames | python3 ../Maze/Common/test.py 6 1
+cat Tests/2-in.json | ./xgames | python3 ../Maze/Common/test.py 6 2
+cd ../7
+cat Tests/0-in.json | ./xbad | python3 ../Maze/Common/test.py 7 0
+cat Tests/1-in.json | ./xbad | python3 ../Maze/Common/test.py 7 1
+cat Tests/2-in.json | ./xbad | python3 ../Maze/Common/test.py 7 2
+cd ../8
+cat Tests/0-in.json | ./xbad2 | python3 ../Maze/Common/test.py 8 0
+cat Tests/1-in.json | ./xbad2 | python3 ../Maze/Common/test.py 8 1
+cat Tests/2-in.json | ./xbad2 | python3 ../Maze/Common/test.py 8 2
+cat Tests/3-in.json | ./xbad2 | python3 ../Maze/Common/test.py 8 3
+cat Tests/4-in.json | ./xbad2 | python3 ../Maze/Common/test.py 8 4
+cd ../Maze/Common
+mvn -q clean

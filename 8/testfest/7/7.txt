@@ -1,0 +1,51 @@
+(testing /course/cs4500f22/ta/github/clever-armadillos/8/xbad2)
+(testing /course/cs4500f22/ta/github/8/7/Tests/1-in.json /course/cs4500f22/ta/github/8/7/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("Zoe" "Riemann") ("Xena" "Euclid" "win" 1))
+  #hasheq((board
+           .
+           #hasheq((connectors
+                    .
+                    (("│" "│" "│" "│") ("│" "│" "│" "│") ("│" "│" "│" "│")))
+                   (treasures
+                    .
+                    ((("alexandrite" "almandine-garnet")
+                      ("alexandrite" "amethyst")
+                      ("alexandrite" "ametrine")
+                      ("alexandrite" "ammolite"))
+                     (("alexandrite" "aquamarine")
+                      ("alexandrite" "australian-marquise")
+                      ("alexandrite" "aventurine")
+                      ("alexandrite" "azurite"))
+                     (("alexandrite" "blue-ceylon-sapphire")
+                      ("alexandrite" "blue-cushion")
+                      ("alexandrite" "blue-pear-shape")
+                      ("alexandrite" "blue-spinel-heart"))))))
+          (last . null)
+          (plmt
+           .
+           (#hasheq((color . "red")
+                    (current . #hasheq((column# . 1) (row# . 1)))
+                    (goto . #hasheq((column# . 3) (row# . 1)))
+                    (home . #hasheq((column# . 1) (row# . 1))))
+            #hasheq((color . "blue")
+                    (current . #hasheq((column# . 3) (row# . 1)))
+                    (goto . #hasheq((column# . 1) (row# . 1)))
+                    (home . #hasheq((column# . 3) (row# . 1))))))
+          (spare
+           .
+           #hasheq((1-image . "ruby") (2-image . "diamond") (tilekey . "┌")))))
+(*** expected)
+'((("Zoe") ("Xena")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ((() ("Xena" "Zoe")))))
+
+
+(testing /course/cs4500f22/ta/github/8/7/Tests/2-in.json /course/cs4500f22/ta/github/8/7/Tests/2-out.json)
+(testing /course/cs4500f22/ta/github/8/7/Tests/3-in.json /course/cs4500f22/ta/github/8/7/Tests/3-out.json)
+(testing /course/cs4500f22/ta/github/8/7/Tests/4-in.json /course/cs4500f22/ta/github/8/7/Tests/4-out.json)
+((/course/cs4500f22/ta/github/8/7/Tests/2-in.json /course/cs4500f22/ta/github/8/7/Tests/2-out.json) (/course/cs4500f22/ta/github/8/7/Tests/3-in.json /course/cs4500f22/ta/github/8/7/Tests/3-out.json) (/course/cs4500f22/ta/github/8/7/Tests/4-in.json /course/cs4500f22/ta/github/8/7/Tests/4-out.json))
+((passed 3) (total 4) (partial-score 3))
+

@@ -1,0 +1,2 @@
+#! /bin/sh
+java -jar ./Other/target/Finger_Exercises-1.0-SNAPSHOT.jar $1

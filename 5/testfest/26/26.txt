@@ -1,0 +1,13 @@
+(testing /course/cs4500f22/ta/github/alecnorrie-joey/5/xchoice)
+(testing /course/cs4500f22/ta/github/5/26/Tests/4-in.json /course/cs4500f22/ta/github/5/26/Tests/4-out.json)
+Exception in thread "main" java.lang.NullPointerException
+	at json.JsonStateDeserializer.getLastActionFromElement(JsonStateDeserializer.java:40)
+	at json.JsonStateDeserializer.deserialize(JsonStateDeserializer.java:31)
+	at json.JsonStateDeserializer.deserialize(JsonStateDeserializer.java:23)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at com.google.gson.Gson.fromJson(Gson.java:1058)
+	at XMain.xChoice(XMain.java:84)
+	at XMain.main(XMain.java:38)
+((/course/cs4500f22/ta/github/5/26/Tests/4-in.json /course/cs4500f22/ta/github/5/26/Tests/4-out.json))
+((passed 1) (total 1) (partial-score 1))
+

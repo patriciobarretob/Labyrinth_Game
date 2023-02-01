@@ -1,0 +1,214 @@
+(testing /home/samc/sw-dev/22SwDev/Code/8/xbad2)
+(testing /course/cs4500f22/ta/github/clever-armadillos/8/Tests-0/0-in.json /course/cs4500f22/ta/github/clever-armadillos/8/Tests-0/0-out.json)
+Larry dropped out on take-turn: 'time [time limit 3.0]
+((/course/cs4500f22/ta/github/clever-armadillos/8/Tests-0/0-in.json /course/cs4500f22/ta/github/clever-armadillos/8/Tests-0/0-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/samc/sw-dev/22SwDev/Code/8/xbad2)
+(testing /course/cs4500f22/ta/github/clever-armadillos/8/Tests-1/1-in.json /course/cs4500f22/ta/github/clever-armadillos/8/Tests-1/1-out.json)
+John dropped out on setup: 'time [time limit 3.0]
+60513zA dropped out on take-turn: (exn:fail:contract:divide-by-zero "/: division by zero" #<continuation-mark-set>) [time limit 3.0]
+Curly dropped out on take-turn: 'time [time limit 3.0]
+---------------------------------
+(*** score 0)
+(*** on)
+'((("John" "Riemann" "setUp" 1)
+   ("60513zA" "Euclid" "takeTurn")
+   ("Curly" "Euclid" "takeTurn" 2))
+  #hasheq((board
+           .
+           #hasheq((connectors
+                    .
+                    (("│" "│" "│" "┌" "│" "│" "│")
+                     ("│" "─" "│" "┐" "│" "─" "│")
+                     ("│" "│" "│" "┤" "│" "│" "│")
+                     ("┐" "┼" "┬" "└" "│" "┘" "┬")
+                     ("┤" "┴" "┐" "├" "┌" "┐" "┐")
+                     ("└" "├" "┘" "┬" "┬" "┴" "┐")
+                     ("┼" "│" "└" "┐" "└" "┌" "│")))
+                   (treasures
+                    .
+                    ((("alexandrite" "almandine-garnet")
+                      ("alexandrite" "amethyst")
+                      ("alexandrite" "ametrine")
+                      ("alexandrite" "ammolite")
+                      ("alexandrite" "apatite")
+                      ("alexandrite" "aplite")
+                      ("alexandrite" "apricot-square-radiant"))
+                     (("alexandrite" "aquamarine")
+                      ("alexandrite" "australian-marquise")
+                      ("alexandrite" "aventurine")
+                      ("alexandrite" "azurite")
+                      ("alexandrite" "beryl")
+                      ("alexandrite" "black-obsidian")
+                      ("alexandrite" "black-onyx"))
+                     (("alexandrite" "black-spinel-cushion")
+                      ("alexandrite" "blue-ceylon-sapphire")
+                      ("alexandrite" "blue-cushion")
+                      ("alexandrite" "blue-pear-shape")
+                      ("alexandrite" "blue-spinel-heart")
+                      ("alexandrite" "bulls-eye")
+                      ("alexandrite" "carnelian"))
+                     (("alexandrite" "chrome-diopside")
+                      ("alexandrite" "chrysoberyl-cushion")
+                      ("alexandrite" "chrysolite")
+                      ("alexandrite" "citrine-checkerboard")
+                      ("alexandrite" "citrine")
+                      ("alexandrite" "clinohumite")
+                      ("alexandrite" "color-change-oval"))
+                     (("alexandrite" "cordierite")
+                      ("alexandrite" "diamond")
+                      ("alexandrite" "dumortierite")
+                      ("alexandrite" "emerald")
+                      ("alexandrite" "fancy-spinel-marquise")
+                      ("alexandrite" "garnet")
+                      ("alexandrite" "golden-diamond-cut"))
+                     (("alexandrite" "goldstone")
+                      ("alexandrite" "grandidierite")
+                      ("alexandrite" "gray-agate")
+                      ("alexandrite" "green-aventurine")
+                      ("alexandrite" "green-beryl-antique")
+                      ("alexandrite" "green-beryl")
+                      ("alexandrite" "green-princess-cut"))
+                     (("alexandrite" "grossular-garnet")
+                      ("alexandrite" "hackmanite")
+                      ("alexandrite" "heliotrope")
+                      ("alexandrite" "hematite")
+                      ("alexandrite" "iolite-emerald-cut")
+                      ("alexandrite" "jasper")
+                      ("alexandrite" "jaspilite"))))))
+          (last . null)
+          (plmt
+           .
+           (#hasheq((color . "orange")
+                    (current . #hasheq((column# . 1) (row# . 1)))
+                    (goto . #hasheq((column# . 3) (row# . 3)))
+                    (home . #hasheq((column# . 1) (row# . 1))))
+            #hasheq((color . "A3C909")
+                    (current . #hasheq((column# . 5) (row# . 1)))
+                    (goto . #hasheq((column# . 3) (row# . 3)))
+                    (home . #hasheq((column# . 5) (row# . 1))))
+            #hasheq((color . "purple")
+                    (current . #hasheq((column# . 5) (row# . 1)))
+                    (goto . #hasheq((column# . 3) (row# . 3)))
+                    (home . #hasheq((column# . 5) (row# . 3))))))
+          (spare
+           .
+           #hasheq((1-image . "alexandrite")
+                   (2-image . "kunzite-oval")
+                   (tilekey . "┌")))))
+(*** expected)
+'((("Curly") ("60513zA" "John")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ((() ("60513zA" "Curly" "John")))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/samc/sw-dev/22SwDev/Code/8/xbad2)
+(testing /course/cs4500f22/ta/github/clever-armadillos/8/Tests-2/2-in.json /course/cs4500f22/ta/github/clever-armadillos/8/Tests-2/2-out.json)
+60513zA dropped out on take-turn: 'time [time limit 3.0]
+Moe dropped out on win: 'time [time limit 3.0]
+((/course/cs4500f22/ta/github/clever-armadillos/8/Tests-2/2-in.json /course/cs4500f22/ta/github/clever-armadillos/8/Tests-2/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/samc/sw-dev/22SwDev/Code/8/xbad2)
+(testing /course/cs4500f22/ta/github/clever-armadillos/8/Tests-3/3-in.json /course/cs4500f22/ta/github/clever-armadillos/8/Tests-3/3-out.json)
+60513zA dropped out on take-turn: 'time [time limit 3.0]
+Larry dropped out on win: 'time [time limit 3.0]
+---------------------------------
+(*** score 0)
+(*** on)
+'((("60513zA" "Euclid" "takeTurn" 2) ("Larry" "Riemann" "win" 2))
+  #hasheq((board
+           .
+           #hasheq((connectors
+                    .
+                    (("┼" "┼" "┼" "┼") ("┼" "┼" "┼" "┼") ("┼" "┼" "┼" "┼")))
+                   (treasures
+                    .
+                    ((("alexandrite" "almandine-garnet")
+                      ("alexandrite" "amethyst")
+                      ("alexandrite" "ametrine")
+                      ("alexandrite" "ammolite"))
+                     (("alexandrite" "aquamarine")
+                      ("alexandrite" "australian-marquise")
+                      ("alexandrite" "aventurine")
+                      ("alexandrite" "azurite"))
+                     (("alexandrite" "black-spinel-cushion")
+                      ("alexandrite" "blue-ceylon-sapphire")
+                      ("alexandrite" "blue-cushion")
+                      ("alexandrite" "blue-pear-shape"))))))
+          (last . null)
+          (plmt
+           .
+           (#hasheq((color . "orange")
+                    (current . #hasheq((column# . 1) (row# . 1)))
+                    (goto . #hasheq((column# . 3) (row# . 1)))
+                    (home . #hasheq((column# . 1) (row# . 1))))
+            #hasheq((color . "A3C909")
+                    (current . #hasheq((column# . 3) (row# . 1)))
+                    (goto . #hasheq((column# . 1) (row# . 1)))
+                    (home . #hasheq((column# . 3) (row# . 1))))))
+          (spare
+           .
+           #hasheq((1-image . "alexandrite")
+                   (2-image . "kunzite-oval")
+                   (tilekey . "┼")))))
+(*** expected)
+'((("Larry") ("60513zA")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ((() ("60513zA" "Larry")))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/samc/sw-dev/22SwDev/Code/8/xbad2)
+(testing /course/cs4500f22/ta/github/clever-armadillos/8/Tests-4/4-in.json /course/cs4500f22/ta/github/clever-armadillos/8/Tests-4/4-out.json)
+Larry dropped out on setup: 'time [time limit 3.0]
+60513zA dropped out on take-turn: 'time [time limit 3.0]
+---------------------------------
+(*** score 0)
+(*** on)
+'((("Larry" "Riemann" "setUp" 2) ("60513zA" "Euclid" "takeTurn" 3))
+  #hasheq((board
+           .
+           #hasheq((connectors
+                    .
+                    (("┼" "┼" "┼" "┼") ("┼" "┼" "┼" "┼") ("┼" "┼" "┼" "┼")))
+                   (treasures
+                    .
+                    ((("alexandrite" "almandine-garnet")
+                      ("alexandrite" "amethyst")
+                      ("alexandrite" "ametrine")
+                      ("alexandrite" "ammolite"))
+                     (("alexandrite" "aquamarine")
+                      ("alexandrite" "australian-marquise")
+                      ("alexandrite" "aventurine")
+                      ("alexandrite" "azurite"))
+                     (("alexandrite" "black-spinel-cushion")
+                      ("alexandrite" "blue-ceylon-sapphire")
+                      ("alexandrite" "blue-cushion")
+                      ("alexandrite" "blue-pear-shape"))))))
+          (last . null)
+          (plmt
+           .
+           (#hasheq((color . "orange")
+                    (current . #hasheq((column# . 1) (row# . 1)))
+                    (goto . #hasheq((column# . 3) (row# . 1)))
+                    (home . #hasheq((column# . 1) (row# . 1))))
+            #hasheq((color . "A3C909")
+                    (current . #hasheq((column# . 3) (row# . 1)))
+                    (goto . #hasheq((column# . 1) (row# . 1)))
+                    (home . #hasheq((column# . 3) (row# . 1))))))
+          (spare
+           .
+           #hasheq((1-image . "alexandrite")
+                   (2-image . "kunzite-oval")
+                   (tilekey . "┼")))))
+(*** expected)
+'((("60513zA") ("Larry")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ((() ("60513zA" "Larry")))))
+
+
+()
+((passed 0) (total 1) (partial-score 0))

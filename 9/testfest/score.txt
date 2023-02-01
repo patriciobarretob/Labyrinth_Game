@@ -1,0 +1,6 @@
+Functionality
+60/100 pts: Passed 3 out of 5 tests (see staff-server-student-clients.txt)
+0/100 pts: Passed 0 tests (including two extra bonus tests) (see student-server-staff-clients.txt)
+Inspection
+45/100 pts: See inspection.md
+Total: 105/300 pts
